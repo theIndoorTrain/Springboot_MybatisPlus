@@ -1,4 +1,8 @@
 package com.xm.pojo;
+
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.enums.IdType;
+
 /**
  * 学生实体
  * @author xm
@@ -6,6 +10,7 @@ package com.xm.pojo;
  */
 public class Student {
 	
+	//@TableId(type=IdType.AUTO)
 	private Integer id;
 	private String name;
 	public Integer getId() {

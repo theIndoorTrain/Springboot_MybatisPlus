@@ -4,3 +4,15 @@ spring:
     username: root
     password: cube1501
     driver-class-name: com.mysql.jdbc.Driver
+    
+    
+logging:
+  level:
+    com: 
+     xm: 
+      mapper: trace
+      
+      
+mybatis-plus:
+  global-config:
+    id-type: 0      
