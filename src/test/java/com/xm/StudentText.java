@@ -52,7 +52,7 @@ public class StudentText {
 		System.out.println("更新行数："+num);*/
 		
 		/**
-		 *insertAllColumn
+		 *insertAllColumn()
 		 * @param Student entity：学生实体
 		 * sql语句：INSERT INTO student ( `name` ) VALUES ( ? )
 		 * return: Integer
