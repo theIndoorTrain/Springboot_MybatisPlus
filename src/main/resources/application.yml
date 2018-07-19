@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://10.1.51.31:3306/xm?useSSL=true
+    username: root
+    password: cube1501
+    driver-class-name: com.mysql.jdbc.Driver
